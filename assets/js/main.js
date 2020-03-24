@@ -1,6 +1,7 @@
 import './syn-platform.js'
 import './syn-hamburger.js'
 import { attachAll } from './syn-gallery.js'
+import './cookies.js'
 
 
 let menuLinks
