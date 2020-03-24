@@ -14,12 +14,13 @@ header { position: sticky; top: 0; padding: .7rem 0; z-index: 1; ; background-co
 
 #sticky { position: absolute; top: 0; left: 0;}
 #sticky #logo { width: 100px; top: 0;  margin: 0 12px;}
-.syn-large #sticky #logo { width: 210px; }
+.syn-large #sticky #logo { width: 190px; }
 nav { text-align: center; padding:1em; font-family:'Play', sans-serif;}
 nav ul { list-style: none; padding: 0; margin: 0; }
 nav ul > li { display: inline-block; margin-right: 3rem; font-size:16px; }
 nav ul > li a { display: inline-block; color: inherit; text-decoration: none; padding: .5rem 0; }
 nav ul > li.active a { font-weight: 400; border-bottom: solid 2px #3B3C3F;}
+.syn-small nav {padding:0}
 .syn-small nav.syn-hamburger > button { margin: 0 .5rem; }
 .syn-small nav.syn-hamburger-open > ul > li { text-align: center; font-size: 1.4rem; }
 nav .larger{font-size:20px}
@@ -33,6 +34,7 @@ p { margin: .9rem 0 .9rem; line-height:1.8}
 #services .tv-service {text-align:center}
 #services .tv-service .flex-row{align-content: center;}
 #services .tv-service .flex-row div {width:160px; text-align:center}
+.syn-large #services .tv-service .flex-row div {width:auto; flex:1}
 .syn-small #services .tv-service .flex-row div{width:100%}
 #services .tv-service .flex-row img{height: 25px; width:auto; margin:1.5em;}
 #services p{font-size:21px}
