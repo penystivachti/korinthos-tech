@@ -12,10 +12,10 @@ header { position: sticky; top: 0; padding: .7rem 0; z-index: 1; ; background-co
 .syn-small img { max-width: 100%;}
 .syn-small section p { padding: 0 .5rem; }
 
+#sticky { position: absolute; top: 0; left: 0;}
+#sticky #logo { width: 100px; top: 0;  margin: 0 12px;}
+.syn-large #sticky #logo { width: 210px; }
 nav { text-align: center; padding:1em; font-family:'Play', sans-serif;}
-nav #sticky { position: absolute; top: 0; left: 0;}
-nav #sticky #logo { width: 210px; top: 0; transition: width .5s; }
-.syn-small nav #sticky #logo { width: 150px; margin: 0 12px; }
 nav ul { list-style: none; padding: 0; margin: 0; }
 nav ul > li { display: inline-block; margin-right: 3rem; font-size:16px; }
 nav ul > li a { display: inline-block; color: inherit; text-decoration: none; padding: .5rem 0; }
@@ -32,12 +32,13 @@ p { margin: .9rem 0 .9rem; line-height:1.8}
 
 #services .tv-service {text-align:center}
 #services .tv-service .flex-row{align-content: center;}
-#services .tv-service .flex-row div {flex:1}
+#services .tv-service .flex-row div {width:160px; text-align:center}
+.syn-small #services .tv-service .flex-row div{width:100%}
 #services .tv-service .flex-row img{height: 25px; width:auto; margin:1.5em;}
 #services p{font-size:21px}
 
 #services .card{margin-top:4em; width:600px; max-width:100%; min-height:230px; align-self: flex-start;}
-#services .card ul{list-style:none}
+#services .card ul{list-style:none; padding-left:0}
 #services .card ul li{line-height:35px; }
 
 #contact img {width:20px; height:auto; margin-right:.5em; display:inline-block}
@@ -47,6 +48,9 @@ p { margin: .9rem 0 .9rem; line-height:1.8}
 .hours ul{list-style:none; text-align:left; padding-inline-start:30px;}
 .hours ul li {line-height:150%; margin-bottom:1em}
 #contact .flex{padding-right:2em}
+.syn-small #contact .flex{padding-left:.5em}
+
+
 
 footer{background-color:#3B3C3F; padding:1em 0}
 footer p{font-size:14px; margin:0; padding:0; color:white; text-align:center}
