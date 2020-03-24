@@ -1,0 +1,1 @@
+scp -r * peny@vm4.synartisis.gr:/srv/sites/korinthos-tech/root/client
