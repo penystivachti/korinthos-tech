@@ -7,7 +7,7 @@ window.addEventListener('DOMContentLoaded', function() {
 function hamburger() {
   const nav = document.querySelector('.syn-hamburger')
   if (!nav) return
-  markActive()
+  let selected
   if (!document.querySelector('.syn-hamburger > ul')) { console.error('syn-hamburger must have a UL child'); return }
   const navToggle = document.createElement('button')
   navToggle.textContent = '☰'
@@ -17,11 +17,12 @@ function hamburger() {
   const styleEl = document.createElement('style')
   styleEl.textContent = styles()
   document.head.appendChild(styleEl)
+  markActive()
   function markActive() {
     setTimeout(() => {
       const pathname = location.hash || location.pathname
-      nav.querySelectorAll('a').forEach(o => o.parentNode.classList.remove('active'))
-      const selected = nav.querySelector('a[href*="' + pathname + '"]')
+      if (selected) selected.parentNode.classList.remove('active')
+      selected = nav.querySelector('a[href*="' + pathname + '"]')
       if (selected) selected.parentNode.classList.add('active')
     })
   }
