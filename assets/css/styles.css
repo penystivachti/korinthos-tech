@@ -45,7 +45,7 @@ p { margin: .9rem 0 .9rem; line-height:1.8}
 
 #contact img {width:20px; height:auto; margin-right:.5em; display:inline-block; vertical-align: text-bottom;}
 #contact p{text-align:left}
-#contact a {font-size:18px; text-decoration:none; color:black}
+#contact a {text-decoration:none; color:black}
 #contact .hours {margin-top:2em; border-top:1px dotted #3B3C3F}
 .hours ul{list-style:none; text-align:left; padding-inline-start:30px;}
 .hours ul li {line-height:150%; margin-bottom:1em}
