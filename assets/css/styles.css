@@ -30,6 +30,9 @@ h1 { font-family:'Play', sans-serif; font-size: 1.8rem; margin-bottom: 2rem; fon
 p { margin: .9rem 0 .9rem; line-height:1.8}
 
 #home img{width:100%}
+#home-about img{height: 300px; width:100%}
+
+#about-us {margin: 40px;}
 
 #services .tv-service {text-align:center}
 #services .tv-service .flex-row{align-content: center;}
