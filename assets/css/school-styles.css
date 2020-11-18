@@ -1,0 +1,59 @@
+* { box-sizing: border-box; }
+#id {
+  font-size: 30px;
+}
+table {
+
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 15px;
+  
+}
+.blink{
+  animation: blink 5s infinite;
+}
+@keyframes blink{
+  0%   {  background: #fd8080;}
+  15%   {  background: #f85d5d;}
+  25%  {  background: #fd8080;}
+  35% {  background: #f85d5d;}
+  45%  {  background: #fd8080;}
+  55% {  background: #f85d5d;}
+  65%  {  background: #fd8080;}
+  75% {  background: #f85d5d;}
+  85%  {  background: #fd8080;}
+  95% {  background: #f85d5d;}
+  100% {  background: #fd8080;}
+  /**0%{opacity: 0;}
+  50%{opacity: .5;}
+  100%{opacity: 1;}**/
+}
+
+
+body {font-family:'Comics', cursive; font-size: 16px; color: #3B3C3F; margin: 0;}
+
+a { color: #3B3C3F; font-size: 20px; font-weight: bold; text-decoration: none;}
+th  { color: #10235f; font-size: 15px; font-weight: bold; text-decoration: none;}
+#wra-math {color: #5f1010; font-size: 30px; font-weight: bold; text-decoration: none;}
+td a {
+  display:block;
+  width:100%;
+  height: 100%;
+}
+
+#B2 tr:nth-child(even) {background-color: #f1a7df;}
+#B2 tr:nth-child(odd) {background-color: #cc93be;}
+
+#A2 tr:nth-child(even) {background-color:#3ef526;}
+#A2 tr:nth-child(odd) {background-color:#5df349;}
+
+header { position: sticky; top: 0; padding: .7rem 0; z-index: 1; ; background-color:rgba(255, 255, 255, .9)}
+ 
